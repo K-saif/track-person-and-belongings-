@@ -2,7 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+/runs/**
+*.mp4
+*.pt
 # C extensions
 *.so
 
