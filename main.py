@@ -2,6 +2,7 @@ from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 import cv2
 
+
 def main():
     # Load YOLOv11
     model = YOLO("yolo11n.pt")
