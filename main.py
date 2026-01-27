@@ -1,7 +1,9 @@
 from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 import cv2
-
+#configure logging
+import logging
+logging.basicConfig(level=logging.INFO)
 
 def main():
     # Load YOLOv11
