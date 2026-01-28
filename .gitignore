@@ -8,6 +8,8 @@ __pycache__/
 1.py
 onlytrack.py
 *.avi
+*.jpg
+*.png
 # C extensions
 *.so
 *.yaml
