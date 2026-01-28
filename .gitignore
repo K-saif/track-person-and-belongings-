@@ -5,6 +5,8 @@ __pycache__/
 /runs/**
 *.mp4
 *.pt
+1.py
+onlytrack.py
 # C extensions
 *.so
 
