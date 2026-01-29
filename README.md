@@ -63,6 +63,8 @@ Generates a processed video showing:
 * Event alerts
 * Ownership confirmations
 
+(output.mp4)[./output.mp4]
+
 ---
 
 ## 🏗️ System Architecture
@@ -113,12 +115,12 @@ pip install ultralytics deep-sort-realtime opencv-python
 
 ### 1. Place your input video
 
-Put your source video (e.g. `1.mp4`) in the project directory.
+In app.py give path to your input video (e.g. `1.mp4`).
 
-### 2. Run main script
+### 2. Run app.py script
 
 ```bash
-python main.py
+python app.py
 ```
 
 ### 3. Output
@@ -126,7 +128,7 @@ python main.py
 Processed video will be saved as:
 
 ```
-output2.mp4
+output.mp4
 ```
 
 Alerts and annotations appear on-screen.
@@ -152,30 +154,6 @@ Adjust based on:
 
 ---
 
-## 🧪 Example Events Detected
-
-During execution you might see overlays like:
-
-```
-Person 3 MOVED AWAY from Bag 5
-Bag 5 LEFT BEHIND
-ALERT: Person 3 left WITHOUT Bag 5
-```
-
----
-
-## 📁 Project Structure
-
-```
-project/
-│
-├── main.py                # Main entry point
-├── README.md              # Documentation
-├── 1.mp4                  # Sample input
-└── output2.mp4            # Processed output
-```
-
----
 
 ## 🏭 Real-World Applications
 
