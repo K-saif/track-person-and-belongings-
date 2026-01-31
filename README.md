@@ -1,4 +1,4 @@
-# 🧳 Person–Bag Association & Tracking System
+# 🧳 Event Driven Abandoned Baggage Detection System
 [![Watch Demo](thumbnail.png)](https://github.com/K-saif/track-person-and-belongings-/raw/main/output.mp4)
 
 This project performs **real-time tracking and reasoning** over persons and their belongings (e.g. backpacks, handbags, suitcases) using:
