@@ -3,11 +3,11 @@
 
 This project performs **real-time tracking and reasoning** over persons and their belongings (e.g. backpacks, handbags, suitcases) using:
 
-* **YOLOv11** for object detection 
+* **yolo11** for object detection 
 * **DeepSORT** for tracking
 * **Custom spatial + temporal logic** for semantic understanding
 
-With this system, you can automatically determine:
+With this system, we can automatically determine:
 
 ✔ Who owns which bag
 ✔ When a person drops a bag and moves away
@@ -22,7 +22,7 @@ This is useful for **airport surveillance**, **cafes**, **public spaces**, **sec
 
 ### 🧠 **Object Detection**
 
-Uses YOLOv11 to detect:
+Uses yolo11 to detect:
 
 * `person`
 * `backpack`
@@ -69,7 +69,7 @@ Generates a processed video showing:
 ## 🏗️ System Architecture
 
 ```
- YOLOv11 → DeepSORT → Spatial Logic → Temporal Logic → Event Reasoning → Output Video
+ yolo11 → DeepSORT → Spatial Logic → Temporal Logic → Event Reasoning → Output Video
 ```
 
 ---
@@ -78,7 +78,7 @@ Generates a processed video showing:
 
 | Component        | Library                 |
 | ---------------- | ----------------------- |
-| Object Detection | `ultralytics (YOLOv11)` |
+| Object Detection | `ultralytics (yolo11)` |
 | Tracking         | `deep-sort-realtime`    |
 | Computer Vision  | `OpenCV`                |
 | Math Utilities   | `math`, `collections`   |
